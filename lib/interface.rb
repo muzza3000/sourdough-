@@ -2,7 +2,7 @@ require "catpix" # need to run 'gem install catpix' if you want to include the h
 require_relative "bakers_percent"
 
 # header image definition
-Catpix::print_image "./header (Small).png",
+Catpix::print_image "./lib/header (Small).png",
   :limit_x => 0.75,
   :limit_y => 0,
   :center_x => false,
