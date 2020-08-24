@@ -1,4 +1,7 @@
-require "catpix" # need to run 'gem install catpix' if you want to include the header image
+require 'rubygems'
+require 'bundler/setup'
+Bundler.require(:default)
+
 require_relative "bakers_percent"
 
 # header image definition

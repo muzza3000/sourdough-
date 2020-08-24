@@ -15,4 +15,3 @@ def baker_bar_chart(bakers_percent)
   print "#{'|' * (bakers_percent[1] * 100).to_i} Water: #{format("%0.02f", bakers_percent[1]*100)}%\n"
   print "#{'|' * (bakers_percent[2] * 100).to_i} Salt: #{format("%0.02f", bakers_percent[2]*100)}%\n"
   print "\n\n"
-end
